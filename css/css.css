@@ -1,0 +1,60 @@
+/**
+ * file: css/css.css
+ * purpose: styling
+ **/
+--gammelrosa
+/* Remove whitespace on top of certain browsers */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body 
+ 
+
+img {
+  width: 100%;
+}
+
+nav a img{ 
+  height: 99px;
+  width: auto
+  }
+
+  /* Sticky navigation */
+  nav {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+body {
+  background-color: rgb(187, 5, 187);
+}
+img {
+  width: 100%;
+  
+}
+
+/* Define variables in the :root */
+ 
+
+/* Use your variables on elements along these lines */
+/*
+:root {
+  --contrast: lime;
+  --backgr: #000;
+
+  nav a img{ 
+  height: 99px;
+  width: auto
+  }
+
+--- You can use the variables like this ---
+
+ main {
+   color: var(--contrast);
+   background-color: var(--backgr);
+ }
+*/
